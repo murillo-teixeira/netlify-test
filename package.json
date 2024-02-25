@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "python print.py && node ./scripts/gen-rss.js && next build",
+    "build": "node ./scripts/gen-rss.js && next build",
     "start": "next start"
   },
   "dependencies": {
